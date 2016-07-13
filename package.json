@@ -1,0 +1,22 @@
+{
+  "name": "pay-it",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main/js/backend/server/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node --captureExceptions src/test/spec/* --autotest --watch src/main/js/**/**/*.js",
+    "e2eTest": "./node_modules/.bin/jasmine-node --captureExceptions src/test/spec/e2e/*.js --autotest --watch src/main/js/**/**/*.js"
+  },
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "jasmine-node": "^1.14.5",
+    "jasmine-node-debug": "^0.1.1"
+  },
+  "dependencies": {
+    "mysql": "~2.0.0",
+    "node-dbi": "^0.7.1",
+    "percolator": "^1.5.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
